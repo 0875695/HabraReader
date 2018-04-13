@@ -1,4 +1,7 @@
 Router.configure({
-  layuotTemplate: 'mainLayuot'
+   layoutTemplate: 'mainLayuot'
+})
+
+Router.route('/', {
+   name: 'habraList'
 });
-Router.route('/',{name:'habraList'});

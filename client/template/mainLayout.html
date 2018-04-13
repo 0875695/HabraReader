@@ -1,9 +1,15 @@
 <template name="mainLayuot">
-<nav class="teal darken-2">
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo">HabraReader</a>
-  </div>
-</nav>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{{>header}}
 
-{{>yeild}}
+<div class="container">
+  {{>yield}}
+</div>
+
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large teal darken-2">
+    <i class="large material-icons">loop</i>
+  </a>
+</div>
+
 </template>
